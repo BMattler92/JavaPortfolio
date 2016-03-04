@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PriceCalculatorController">
+   <children>
+      <Button fx:id="priceButton" layoutX="187.0" layoutY="200.0" mnemonicParsing="false" onAction="#priceButtonListener" text="Calculate Retail Price" />
+      <Label fx:id="wholesaleLabel" layoutX="33.0" layoutY="82.0" prefHeight="27.0" prefWidth="135.0" text="Wholesale Cost:" />
+      <TextField fx:id="wholesaleTextfield" layoutX="220.0" layoutY="76.0" />
+      <TextField fx:id="markupTextfield" layoutX="220.0" layoutY="129.0" />
+      <Label fx:id="markupLabel" layoutX="33.0" layoutY="135.0" text="Mark-up Percentage" />
+      <Label fx:id="costLabel" layoutX="137.0" layoutY="257.0" prefHeight="27.0" prefWidth="290.0" />
+      <Label fx:id="retailLabel" layoutX="33.0" layoutY="270.0" text="Retail Cost" />
+   </children>
+</AnchorPane>

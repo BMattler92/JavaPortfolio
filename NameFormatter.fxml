@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NameFormatterController">
+   <children>
+      <TextField fx:id="firstTextfield" layoutX="217.0" layoutY="54.0" />
+      <TextField fx:id="middleTextfield" layoutX="217.0" layoutY="98.0" />
+      <TextField fx:id="lastTextfield" layoutX="217.0" layoutY="143.0" />
+      <TextField fx:id="titleTextfield" layoutX="217.0" layoutY="188.0" />
+      <Label fx:id="firstLabel" layoutX="29.0" layoutY="60.0" text="First Name (F)" />
+      <Label fx:id="middleLabel" layoutX="29.0" layoutY="104.0" text="Middle Name (M)" />
+      <Label fx:id="lastLabel" layoutX="29.0" layoutY="149.0" text="Last Name (L)" />
+      <Label fx:id="titleLabel" layoutX="29.0" layoutY="194.0" text="Title (T)" />
+      <Label fx:id="outputLabel" layoutX="37.0" layoutY="241.0" prefHeight="80.0" prefWidth="534.0" />
+      <Button fx:id="tfmlButton" layoutX="29.0" layoutY="333.0" mnemonicParsing="false" onAction="#tfmlButtonListener" text="TFML" />
+      <Button fx:id="fmlButton" layoutX="130.0" layoutY="333.0" mnemonicParsing="false" onAction="#fmlButtonListener" text="FML" />
+      <Button fx:id="flButton" layoutX="221.0" layoutY="333.0" mnemonicParsing="false" onAction="#flButtonListener" text="FL" />
+      <Button fx:id="lfmtButton" layoutX="296.0" layoutY="333.0" mnemonicParsing="false" onAction="#lfmtButtonListener" text="LFMT" />
+      <Button fx:id="lfmButton" layoutX="402.0" layoutY="333.0" mnemonicParsing="false" onAction="#lfmButtonListener" text="LFM" />
+      <Button fx:id="lfButton" layoutX="497.0" layoutY="333.0" mnemonicParsing="false" onAction="#lfButtonListener" text="LF" />
+   </children>
+</AnchorPane>
